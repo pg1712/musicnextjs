@@ -1,7 +1,22 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
+import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import TestimonialCards from "@/components/TestimonialCards";
+import UpcomigWebimars from "@/components/UpcomigWebimars";
+import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 export default function Home() {
     return (
         <>
-            <h1 className="text-3xl text-center mt-8">hello i am priyanshu </h1>
+            <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+                <HeroSection />
+                <FeaturedCourses />
+                <WhyChooseUs />
+                <TestimonialCards />
+                <UpcomigWebimars />
+                <Instructors />
+                <Footer />
+            </main>
         </>
     );
 }
